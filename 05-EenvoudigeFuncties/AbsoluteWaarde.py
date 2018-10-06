@@ -5,4 +5,9 @@ y = float(input('y:'))
 linker_lid = abs(abs(x) - abs(y))
 rechter_lid = abs(x - y)
 #uivoer
-uitvoer = float(round(4, linker_lid)) + '≤' + float(round(4, rechter_lid))
+resultaat_a = round(linker_lid, 4)
+resultaat_b = round(rechter_lid, 4)
+#eind
+print(str(resultaat_a) + ' ≤ ' + str(resultaat_b))
+
+

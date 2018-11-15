@@ -1,16 +1,14 @@
 aantal_getallen = int(input('Aantal getallen: '))
 
 
-max = 0
-som = 0
+max = int(input('getal: '))
+som = max
 
-for i in range(aantal_getallen):
+for i in range(aantal_getallen - 1):
     getal = int(input('getal: '))
-    if i == 0:
-        max = getal
-    elif getal > max:
-        max = getal
     som += getal
+    if(getal > max):
+        max = getal
 
 gem = (som / aantal_getallen)
 

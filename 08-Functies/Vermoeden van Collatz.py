@@ -5,4 +5,14 @@ def volgend_collatz_getal(n):
         getal = (n * 3) + 1
 
     return getal
-def collatz():
+
+
+
+def collatz(n):
+    lengte = 0
+    if n == 1:
+        lengte += 1
+    else:
+        lengte += 1 + collatz(volgend_collatz_getal(n))
+
+    return lengte

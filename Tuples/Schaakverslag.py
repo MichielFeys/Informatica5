@@ -7,4 +7,5 @@ def geldige_zet(zet):
 
 
 def geldige_zetten(zetten):
-    for i in range(0, len(zetten))
+    for i in range(0, len(zetten)):
+        
